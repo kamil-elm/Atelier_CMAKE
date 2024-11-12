@@ -5,7 +5,6 @@
 
 int main(int argc, char *argv[]) {
     if (argc == 4) {
-        // Opérations à deux arguments (add, sub, mul, div)
         char* op = argv[1];
         char* a = argv[2];
         char* b = argv[3];
@@ -32,7 +31,6 @@ int main(int argc, char *argv[]) {
         }
     }
     else if (argc == 3) {
-        // Opération à un argument (car)
         char* op = argv[1];
         char* a = argv[2];
         double r = 0;
